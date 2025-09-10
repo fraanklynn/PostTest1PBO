@@ -132,22 +132,22 @@ Pada pilihan 5, program akan menampilkan pesan "Program Selesai. Terima kasih!" 
 Method tampilkanFasilitas ini berfungsi untuk menampilkan daftar fasilitas gym dalam bentuk tabel yang rapi. Pertama, program mencetak header tabel dengan kolom "No" dan "Nama Fasilitas". Jika daftar fasilitasGym kosong, akan ditampilkan baris khusus dengan keterangan "(kosong)". Jika ada data, program melakukan perulangan menggunakan for untuk mencetak setiap fasilitas beserta nomor urutnya. Format keluaran diatur menggunakan System.out.printf agar tampilan tabel rata dan sejajar. Setelah semua data ditampilkan, tabel ditutup dengan garis bawah sebagai penutup.
 
 ## Penjelasan Output
-<img width="366" height="190" alt="image" src="https://github.com/user-attachments/assets/4acb543a-22d3-4f55-91cd-d1db96ef850d" />
+### <img width="366" height="190" alt="image" src="https://github.com/user-attachments/assets/4acb543a-22d3-4f55-91cd-d1db96ef850d" />
 Output menu pertama akan ad 5 pilihan yaitu tambah fasilitas,lihat fasilitas,ubah fasilitas,hapus fasilitas dan keluar
 
-<img width="541" height="368" alt="image" src="https://github.com/user-attachments/assets/8688f9bd-649b-49f3-a8f8-80ef2f9694ea" />
+### <img width="541" height="368" alt="image" src="https://github.com/user-attachments/assets/8688f9bd-649b-49f3-a8f8-80ef2f9694ea" />
 Output pilihan 1 akan memunculkan fasilitas yang tersedia lalu akan meminta fasilitas apa yg ingin ditambahkan, jika sudah ditambahkan maka program akan memanggil lagi tabel fasilitas yang tersedia
 
-<img width="457" height="229" alt="image" src="https://github.com/user-attachments/assets/4cde293f-d5df-4d3b-95e3-8f5c212b7934" />
+### <img width="457" height="229" alt="image" src="https://github.com/user-attachments/assets/4cde293f-d5df-4d3b-95e3-8f5c212b7934" />
 Output pilihan 2 akan memperlihatkan fasilitas yang tersedia
 
-<img width="478" height="523" alt="image" src="https://github.com/user-attachments/assets/bf52ee36-9d00-4611-ac78-69385787a8e8" />
+### <img width="478" height="523" alt="image" src="https://github.com/user-attachments/assets/bf52ee36-9d00-4611-ac78-69385787a8e8" />
 Output pilihan 3 akan memperlihatkan fasilitas yang tersedia lalu meminta id fasilitas yang ingin diubah,jika sudah diubah maka program akan memanggil lagi tabel fasilitas yang tersedia dan fasilitas telah diubah
 
-<img width="458" height="435" alt="image" src="https://github.com/user-attachments/assets/af9e62b2-c810-4c80-80e1-8eaa69476abc" />
+### <img width="458" height="435" alt="image" src="https://github.com/user-attachments/assets/af9e62b2-c810-4c80-80e1-8eaa69476abc" />
 Output pilihan 4 akan memperlihatkan fasilitas yang tersedia lalu meminta id fasilitas yang ingin dihapus,jika sudah dihapus maka program akan memanggil lagi tabel fasilitas yang tersedia dan fasilitas telah dihapus
 
-<img width="430" height="229" alt="image" src="https://github.com/user-attachments/assets/6b5e2a2a-748d-4081-9b96-b6eb24707189" />
+### <img width="430" height="229" alt="image" src="https://github.com/user-attachments/assets/6b5e2a2a-748d-4081-9b96-b6eb24707189" />
 Output pilihan 5 maka akan keluar dari program
 
 
