@@ -15,12 +15,19 @@ Program dimulai dari
 
 ## Penjelasan Code
 
-package com.mycompany.main;
-import java.util.ArrayList;
-import java.util.Scanner;
-
+#### package com.mycompany.main;
+#### import java.util.ArrayList;
+#### import java.util.Scanner;
 Kode di atas menggunakan package com.mycompany.main untuk mengelompokkan class agar lebih terstruktur, lalu ArrayList diimpor sebagai struktur data dinamis untuk menyimpan dan mengelola daftar fasilitas gym, sedangkan Scanner digunakan agar program dapat menerima input dari pengguna melalui keyboard, misalnya untuk memilih menu atau memasukkan data baru.
 
+#### public class Main {
+Baris ini mendeklarasikan sebuah class bernama Main yang menjadi titik awal dari program.
 
+#### public static void main(String[] args) {
+        ArrayList<String> fasilitasGym = new ArrayList<>();
+        try (Scanner menu = new Scanner(System.in)) {
+            int pilihan;
+            
 
+Potongan kode tersebut mendefinisikan method utama main sebagai titik awal program, lalu membuat sebuah ArrayList bertipe String bernama fasilitasGym untuk menyimpan daftar fasilitas gym, kemudian mendeklarasikan Scanner bernama menu dengan mekanisme try-with-resources agar dapat menerima input dari keyboard secara aman, serta menyiapkan variabel pilihan bertipe integer untuk menampung input menu yang dipilih pengguna.
 
