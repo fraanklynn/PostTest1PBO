@@ -150,6 +150,8 @@ Output pilihan 4 akan memperlihatkan fasilitas yang tersedia lalu meminta id fas
 ### <img width="430" height="229" alt="image" src="https://github.com/user-attachments/assets/6b5e2a2a-748d-4081-9b96-b6eb24707189" />
 Output pilihan 5 maka akan keluar dari program
 
+### <img width="336" height="222" alt="image" src="https://github.com/user-attachments/assets/2d129782-ad39-417c-8e13-ebe761b7b0d1" />
+Output jika memilih angka yang tidak ada di dalam program maka pilihan tidak valid dan kembali lagi ke menu
 
 
 
